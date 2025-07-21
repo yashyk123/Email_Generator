@@ -1,0 +1,19 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F9FAFB; /* Off-white background */
+  font-family: 'Inter', 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Ensure no unexpected styles */
+* {
+  box-sizing: border-box;
+}
